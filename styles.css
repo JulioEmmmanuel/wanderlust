@@ -46,6 +46,7 @@ form {
 
 footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   height: 50px;
 }
@@ -56,6 +57,7 @@ footer {
 }
 
 .container {
+  display:flex;
   max-width: 1300px;
   margin: auto;
   visibility: hidden;
@@ -71,7 +73,7 @@ footer {
 
 .weather {
   width: 200px;
-  height: 260px;
+  height: 300px;
   padding: 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
